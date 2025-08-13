@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2025-08-14T02:03:03" time="4.048" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.138_0_7204_185.windows"/>
+      <property name="file" value="file:///C:/Users/KAHXIE/Desktop/SCC%20Assignment/Assignment1Project/test/specs/test.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.138_0_7204_185.windows.My_Login_application" name="should login with valid credentials" time="4.046">
+      <system-out><![CDATA[
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.DB7AF972F8C72621229F534B144200E8.e.2/clear - {}
+RESULT: {}
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.DB7AF972F8C72621229F534B144200E8.e.2/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.DB7AF972F8C72621229F534B144200E8.e.3/clear - {}
+RESULT: {}
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.DB7AF972F8C72621229F534B144200E8.e.3/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.DB7AF972F8C72621229F534B144200E8.e.4/click - {}
+RESULT: {}
+COMMAND: POST /session/63923896a5cb77a032c09909757bc77e/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/63923896a5cb77a032c09909757bc77e/element/f.525D8E5E3E38DA4F6221353571A9C75E.d.0F8C6A2FE604074A28C7099C89FD4679.e.14/text - {}
+RESULT: {}
+COMMAND: DELETE /session/63923896a5cb77a032c09909757bc77e - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
